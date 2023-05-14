@@ -11,6 +11,7 @@ COPY . .
 
 RUN yarn build
 
-EXPOSE 3000
+#expose port 3000 on 9515
+EXPOSE 3000:9515
 
 CMD [ "yarn", "start" ]

@@ -4,22 +4,22 @@ import { motion, MotionProps } from 'framer-motion';
 
 const socials = [
   {
-    href: 'https://dc.r07.dev/',
+    href: 'https://discord.gg/zW6jpzVRZc',
     color: '#5865F2',
     icon: 'fa6-brands:discord',
   },
   {
-    href: 'https://r07.dev/l/youtube',
+    href: 'https://youtube.com/@keksdev',
     color: '#ff0000',
     icon: 'fa6-brands:youtube',
   },
   {
-    href: 'https://r07.dev/l/twitch',
+    href: 'https://twitch.tv/keksdev9513',
     color: '#9146FF',
     icon: 'fa6-brands:twitch',
   },
   {
-    href: 'https://r07.dev/l/github',
+    href: 'https://github.com/tunikakeks',
     color: '#9146FF',
     icon: 'fa6-brands:github',
   },
@@ -50,7 +50,7 @@ const Site = () => {
         className="absolute grid h-screen w-screen place-items-center"
       >
         <motion.p
-          className="font-redi font-black uppercase text-white"
+          className="font-poppins font-black text-white"
           animate={{
             opacity: [1, 1, 1, 0],
             fontSize: ['3rem', '3rem', '2rem', '2rem'],
@@ -61,10 +61,10 @@ const Site = () => {
             ease: [0.5, 0, 0.5, 1],
           }}
         >
-          RedCrafter07
+          KeksDev
         </motion.p>
       </motion.div>
-      <div className="background max-w-screen grid h-screen max-h-screen w-screen place-items-center bg-neutral-800 px-2 text-white">
+      <div className="background max-w-screen grid h-screen max-h-screen w-screen place-items-center bg-dark px-2 text-white">
         <motion.div
           className="grid grid-cols-12 rounded-lg p-6 shadow-xl"
           animate={{
@@ -135,9 +135,10 @@ const Site = () => {
                 ease: [0.5, 0, 0.5, 1],
                 delay: 3.25,
               }}
-              className="font-redi text-3xl font-black uppercase"
+              className="font-poppins text-4xl font-black flex"
             >
-              RedCrafter07
+              <motion.img src="https://media.discordapp.net/attachments/1036377496926556220/1036377647695007794/CC_Express_20220424_0133050.6834317868743442-1.png?width=676&height=676" height={40} width={40} style={{ borderRadius: "25px", marginRight: "5px" }} />
+              KeksDev
             </motion.p>
             <motion.p
               animate={{ y: [50, 0], opacity: [0, 1] }}
@@ -147,205 +148,11 @@ const Site = () => {
                 delay: 3.3,
               }}
             >
-              Hi. I&apos;m RedCrafter07, a developer from Germany.
+              Hi. I&apos;m KeksDev, just another german developer.
             </motion.p>
+            
             <motion.p
-              animate={{ y: [50, 0], opacity: [0, 1] }}
-              className="font-redi my-6 text-xl font-black uppercase"
-              transition={{
-                duration: 0.3,
-                ease: [0.5, 0, 0.5, 1],
-                delay: 3.35,
-              }}
-            >
-              Skills
-            </motion.p>
-            <motion.div
-              className="my-4 h-6 w-full rounded-md bg-neutral-800"
-              animate={{ y: [50, 0], opacity: [0, 1] }}
-              transition={{
-                duration: 0.3,
-                ease: [0.5, 0, 0.5, 1],
-                delay: 3.4,
-              }}
-            >
-              <motion.div
-                className="h-full w-full rounded-md bg-orange-500 px-2 text-center"
-                transition={{
-                  duration: 0.5,
-                  ease: [0.5, 0, 0.5, 1],
-                  delay: 3.6,
-                }}
-                animate={{
-                  width: ['0%', '100%'],
-                  padding: ['0 0', '0 0.5rem'],
-                }}
-              >
-                HTML (100%)
-              </motion.div>
-            </motion.div>
-            <motion.div
-              className="my-4 h-6 w-full rounded-md bg-neutral-800"
-              animate={{ y: [50, 0], opacity: [0, 1] }}
-              transition={{
-                duration: 0.3,
-                ease: [0.5, 0, 0.5, 1],
-                delay: 3.45,
-              }}
-            >
-              <motion.div
-                className="h-full rounded-md bg-blue-500 px-2 text-center"
-                transition={{
-                  duration: 0.5,
-                  ease: [0.5, 0, 0.5, 1],
-                  delay: 3.65,
-                }}
-                animate={{
-                  width: ['0%', '66%'],
-                  padding: ['0 0', '0 0.5rem'],
-                }}
-              >
-                CSS (~66%)
-              </motion.div>
-            </motion.div>
-            <motion.div
-              className="my-4 h-6 w-full rounded-md bg-neutral-800"
-              animate={{ y: [50, 0], opacity: [0, 1] }}
-              transition={{
-                duration: 0.3,
-                ease: [0.5, 0, 0.5, 1],
-                delay: 3.5,
-              }}
-            >
-              <motion.div
-                className="h-full rounded-md bg-yellow-500 px-2 text-center"
-                transition={{
-                  duration: 0.5,
-                  ease: [0.5, 0, 0.5, 1],
-                  delay: 3.7,
-                }}
-                animate={{
-                  width: ['0%', '75%'],
-                  padding: ['0 0', '0 0.5rem'],
-                }}
-              >
-                JS/TS (~75%)
-              </motion.div>
-            </motion.div>
-            <motion.div
-              className="my-4 h-6 w-full rounded-md bg-neutral-800"
-              animate={{ y: [50, 0], opacity: [0, 1] }}
-              transition={{
-                duration: 0.3,
-                ease: [0.5, 0, 0.5, 1],
-                delay: 3.55,
-              }}
-            >
-              <motion.div
-                className="h-full rounded-md bg-red-500 px-2 text-center"
-                transition={{
-                  duration: 0.5,
-                  ease: [0.5, 0, 0.5, 1],
-                  delay: 3.7,
-                }}
-                animate={{
-                  width: ['0%', '5%'],
-                  padding: ['0 0', '0 0.5rem'],
-                }}
-              >
-                Java (~5%)
-              </motion.div>
-            </motion.div>
-            <motion.p
-              className="font-redi my-6 text-xl font-black uppercase"
-              animate={{ y: [50, 0], opacity: [0, 1] }}
-              transition={{
-                duration: 0.3,
-                ease: [0.5, 0, 0.5, 1],
-                delay: 3.75,
-              }}
-            >
-              Coding Gear
-            </motion.p>
-            <motion.p
-              animate={{ y: [50, 0], opacity: [0, 1] }}
-              transition={{
-                duration: 0.3,
-                ease: [0.5, 0, 0.5, 1],
-                delay: 3.8,
-              }}
-            >
-              Coding Program:{' '}
-              <a
-                href="https://code.visualstudio.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visual Studio Code
-              </a>
-            </motion.p>
-            <motion.p
-              animate={{ y: [50, 0], opacity: [0, 1] }}
-              transition={{
-                duration: 0.3,
-                ease: [0.5, 0, 0.5, 1],
-                delay: 3.85,
-              }}
-            >
-              VS Code Theme:{' '}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=RedCrafter07.red-theme"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RedCrafter07 Theme
-              </a>
-            </motion.p>
-            <motion.p
-              animate={{ y: [50, 0], opacity: [0, 1] }}
-              transition={{
-                duration: 0.3,
-                ease: [0.5, 0, 0.5, 1],
-                delay: 3.9,
-              }}
-            >
-              Favorite Framework:{' '}
-              <a
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                React
-              </a>
-              {' with '}
-              <a
-                href="https://nextjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                NextJS
-              </a>
-            </motion.p>
-            <motion.p
-              animate={{ y: [50, 0], opacity: [0, 1] }}
-              transition={{
-                duration: 0.3,
-                ease: [0.5, 0, 0.5, 1],
-                delay: 3.9,
-              }}
-            >
-              Favorite Programming Language:{' '}
-              <a
-                href="https://typescriptlang.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Typescript
-              </a>
-            </motion.p>
-
-            <motion.p
-              className="font-redi my-6 text-xl font-black uppercase"
+              className="font-poppins my-6 text-xl font-black uppercase"
               animate={{ y: [50, 0], opacity: [0, 1] }}
               transition={{
                 duration: 0.3,
@@ -353,7 +160,7 @@ const Site = () => {
                 delay: 3.95,
               }}
             >
-              Worth to check out
+              My Projects
             </motion.p>
 
             <p>
@@ -362,13 +169,18 @@ const Site = () => {
                 transition={{
                   duration: 0.3,
                   ease: [0.5, 0, 0.5, 1],
-                  delay: 4.0,
+                  delay: 4.05,
                 }}
-                href="https://redcrafter07.de"
+                href="https://dbleu.org/b/eytron"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{
+                  display: "flex",
+                  textDecoration: "none",
+                  margin: "5px"
+                }}
               >
-                My main website (german)
+                <motion.img src="https://cdn.keksdev.ga/uploads/Eytron/logo.png" height={25} width={25} /> │ Eytron - Discord Bot
               </motion.a>
             </p>
             <p>
@@ -379,11 +191,36 @@ const Site = () => {
                   ease: [0.5, 0, 0.5, 1],
                   delay: 4.05,
                 }}
-                href="https://github.com/RedCrafter07"
+                href="https://dbleu.org/"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{
+                  display: "flex",
+                  textDecoration: "none",
+                  margin: "5px"
+                }}
               >
-                My Github
+                <motion.img src="https://cdn.discord-botlist.eu/pictures/logo.png" height={25} width={25} style={{ borderRadius: "1rem" }} /> │ dbleu.org - Discord Botlist
+              </motion.a>
+            </p>
+            <p>
+              <motion.a
+                animate={{ y: [50, 0], opacity: [0, 1] }}
+                transition={{
+                  duration: 0.3,
+                  ease: [0.5, 0, 0.5, 1],
+                  delay: 4.05,
+                }}
+                href="https://discord.gg/pycmc"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "flex",
+                  textDecoration: "none",
+                  margin: "5px"
+                }}
+              >
+                <motion.img src="https://cdn.discordapp.com/avatars/840525807554134026/eaa357797be1a7f1e762be5fba410ab2.png?size=1024" height={25} width={25} /> │ PyCMC - Minecraft Bedrock Edition Servernetwork
               </motion.a>
             </p>
             <p>
@@ -394,9 +231,15 @@ const Site = () => {
                   ease: [0.5, 0, 0.5, 1],
                   delay: 4.1,
                 }}
-                href="https://github.com/RedCrafter07/card"
+                href="https://github.com/tunikakeks/about-me"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{
+                  display: "flex",
+                  textDecoration: "none",
+                  marginTop: "15px",
+                  marginLeft: "5px"
+                }}
               >
                 Site source code
               </motion.a>
@@ -411,7 +254,7 @@ const Site = () => {
 const Home = () => {
   return (
     <div>
-      <title>RedCrafter07</title>
+      <title>KeksDev</title>
       <Site></Site>
     </div>
   );

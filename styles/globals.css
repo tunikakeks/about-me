@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 * {
-  font-family: 'Readex Pro', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .background {
@@ -16,4 +18,16 @@
 
 a {
   @apply underline hover:text-blue-400 transition-colors duration-150;
+}
+
+.font-poppins {
+  font-family: bold 70px Poppins;
+}
+
+.bg-blurple {
+  background-color: #454FBF;
+}
+
+.bg-dark {
+  background-color: #23272A;
 }
